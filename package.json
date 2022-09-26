@@ -1,0 +1,36 @@
+{
+    "name": "api",
+    "version": "0.0.0",
+    "description": "InnovarGE S.A.S API",
+    "main": "src/index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "NODE_ENV=development nodemon"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sandersgutierrez/innovarge-api.git"
+    },
+    "author": "Sanders Gutiérrez <ing.sanders@gmail.com> (https://sandersgutierrez.githu.io/)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sandersgutierrez/innovarge-api/issues"
+    },
+    "homepage": "https://github.com/sandersgutierrez/innovarge-api#readme",
+    "dependencies": {
+        "body-parser": "^1.20.0",
+        "chalk": "^5.0.1",
+        "cookie-parser": "^1.4.6",
+        "express": "^4.18.1",
+        "js-yaml": "^4.1.0",
+        "mongoose": "^6.6.1",
+        "mongoose-title-case": "^0.2.0",
+        "mongoose-validator": "^2.1.0"
+    },
+    "devDependencies": {
+        "dotenv": "^16.0.2",
+        "eslint": "^8.24.0",
+        "nodemon": "^2.0.20",
+        "prettier": "^2.7.1"
+    }
+}
